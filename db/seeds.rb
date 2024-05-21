@@ -29,3 +29,35 @@
 #     )
 #   end
 # end
+
+
+# orders = [
+#   { customer_email: 'customer1@example.com', fulfilled: false, total: 100, address: '123 Main St' },
+#   { customer_email: 'customer2@example.com', fulfilled: true, total: 200, address: '456 Elm St' },
+#   { customer_email: 'customer3@example.com', fulfilled: false, total: 150, address: '789 Maple Ave' },
+#   { customer_email: 'customer4@example.com', fulfilled: true, total: 250, address: '101 Oak St' },
+#   { customer_email: 'customer5@example.com', fulfilled: false, total: 300, address: '202 Pine St' },
+#   { customer_email: 'customer6@example.com', fulfilled: true, total: 350, address: '303 Cedar St' },
+#   { customer_email: 'customer7@example.com', fulfilled: false, total: 400, address: '404 Birch St' },
+#   { customer_email: 'customer8@example.com', fulfilled: true, total: 450, address: '505 Walnut St' },
+#   { customer_email: 'customer9@example.com', fulfilled: false, total: 500, address: '606 Chestnut St' },
+#   { customer_email: 'customer10@example.com', fulfilled: true, total: 550, address: '707 Spruce St' }
+# ]
+
+# orders.each do |order|
+#   Order.create(order)
+# end
+
+
+
+# order_products = [
+#   { order_id: Order.first.id, product_id: Product.first.id, size: 'M', quantity: 2 },
+#   { order_id: Order.second.id, product_id: Product.second.id, size: 'L', quantity: 1 },
+#   { order_id: Order.third.id, product_id: Product.third.id, size: 'S', quantity: 3 },
+#   { order_id: Order.fourth.id, product_id: Product.fourth.id, size: 'XL', quantity: 1 },
+#   { order_id: Order.fifth.id, product_id: Product.fifth.id, size: 'M', quantity: 2 }
+# ]
+
+# order_products.each do |order_product_attrs|
+#   OrderProduct.create(order_product_attrs)
+# end

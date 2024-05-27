@@ -1,0 +1,36 @@
+<footer class="bg-gray-600 text-white" style=" padding-top: 1rem; padding-left: 1rem; margin-bottom: 1rem;" >
+    <!-- About section -->
+    <div class="space-y-6">
+      <h3 class="text-lg font-bold text-gray-200 uppercase">About GetGrossy</h3>
+      <p class="text-white leading-6">
+        GetGrossy is a leading online marketplace, offering a wide range of products to cater to all your needs. Our commitment to quality and customer service ensures a great shopping experience.
+      </p>
+    </div>
+  <div class="max-w-6xl mx-auto px-4 py-10 md:py-20" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; text-align: center; padding-top: 5rem; padding-bottom: 5rem; margin-bottom: 2.5rem;">
+
+    <!-- Quick Links -->
+    <div class="space-y-6">
+      <h3 class="text-lg font-bold text-gray-200 uppercase">Quick Links</h3>
+      <ul class="text-white">
+        <li>
+          <%= link_to "Home", root_path, class: "text-base leading-6 hover:text-gray-100" %>
+        </li>
+        <!-- Add more quick links here if needed -->
+      </ul>
+    </div>
+
+    <!-- Contact information -->
+    <div class="space-y-6">
+      <h3 class="text-xl font-bold text-gray-200 uppercase">Contact</h3>
+      <ul class="text-white">
+        <li>123 GetGrossy Lane <br> E-commerce City, EC 12345</li>
+        <li>Email: support@getgrossy.com</li>
+        <li>Phone: (923) 49477-1617</li>
+      </ul>
+    </div>
+			<div class="border-t border-gray-700 max-w-6xl mx-auto px-4 py-6 flex items-center justify-center">
+				<p class="text-gray-400 font-bold">&copy; <%= Time.now.year %> GetGrossy, Inc. All rights reserved.</p>
+			</div>
+  </div>
+
+</footer>

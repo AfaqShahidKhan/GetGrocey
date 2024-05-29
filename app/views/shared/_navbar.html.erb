@@ -1,4 +1,4 @@
-<nav class="fixed w-full top-0 bg-gray-100 z-10 p-4">
+<nav class="w-full top-0 z-10 bg-gray-500 p-2" style="position: fixed; padding-left: 1rem; padding-right: 1rem;">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
       <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
@@ -17,7 +17,7 @@
       <div class="sm:flex sml:ml-6 items-center justify-center">
         <div class="flex space-x-10">
           <%= link_to root_path, class: "text-gray-500 hover:underline py-2 rounded-md text-md font-medium" do %>
-            <%= icon 'fa-solid', 'shopping-cart' %>
+<%= image_tag 'getgrocey_shopping_cart.png', style: 'display: block; width: 3rem; height: 3rem;', class: 'hidden lg:block' %>
           <% end %>
         </div>
       </div>

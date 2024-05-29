@@ -1,20 +1,21 @@
-<footer class="bg-gray-600 text-white" style=" padding-top: 1rem; padding-left: 1rem; margin-bottom: 1rem;" >
+<footer class="bg-gray-500 text-white" style=" padding-top: 1rem; padding-left: 1rem; margin-top: 2.5rem;" >
     <!-- About section -->
     <div class="space-y-6">
-      <h3 class="text-lg font-bold text-gray-200 uppercase">About GetGrossy</h3>
       <p class="text-white leading-6">
         GetGrossy is a leading online marketplace, offering a wide range of products to cater to all your needs. Our commitment to quality and customer service ensures a great shopping experience.
       </p>
     </div>
-  <div class="max-w-6xl mx-auto px-4 py-10 md:py-20" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; text-align: center; padding-top: 5rem; padding-bottom: 5rem; margin-bottom: 2.5rem;">
+  <div class="max-w-6xl mx-auto px-4 py-10 md:py-10" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; text-align: center; padding-top: 1rem; padding-bottom: 1rem; margin-bottom: 0.5rem;">
 
     <!-- Quick Links -->
     <div class="space-y-6">
       <h3 class="text-lg font-bold text-gray-200 uppercase">Quick Links</h3>
       <ul class="text-white">
         <li>
-          <%= link_to "Home", root_path, class: "text-base leading-6 hover:text-gray-100" %>
+          <%#= link_to "Home", root_path, class: "text-base leading-6 hover:text-gray-100" %>
         </li>
+        <li><%= link_to "Home", root_path, class: "text-base leading-6 hover:text-gray-100 " %></li>
+        <li><%= link_to "About", about_path, class: "text-base leading-6 hover:text-gray-100 " %></li>
         <!-- Add more quick links here if needed -->
       </ul>
     </div>

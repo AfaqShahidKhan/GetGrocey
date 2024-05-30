@@ -8,7 +8,7 @@
   <% @main_categories.each do |category| %>
     <%= link_to category_path(category) do %>
       <div class="flex flex-col mb-4">
-        <%= category.image.present? ? image_tag(category.image, style: "width: 320px; height: 200px; object-fit: cover;") : image_tag("http://via.placeholder.com/200x200", style: "width: 320px; height: 200px; object-fit: cover;") %>
+        <%= category.image.present? ? image_tag(category.image, style: "width: 320px; height: 200px; object-fit: cover;" , class: "rounded-md") : image_tag("http://via.placeholder.com/200x200", style: "width: 320px; height: 200px; object-fit: cover; ") %>
         <h2 class="text-gray-600 font-medium text-lg mb-6 mt-4" style="text-align: center;"><%= category.name %></h2>
       </div>
     <% end %>
@@ -46,6 +46,7 @@
           </p>
           <p style="color: #a0aec0; font-size: 0.75rem;">
             - Alex Smith
+          <%#= image_tag("/assets/customer1.png", alt:"Alex Smith", style:"width: 50px; height: 50px; border-radius: 50%; margin-right: 1rem;")%>
           </p>
         </div>
       </div>

@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   resources :categories, only: [:show], param: :id
   resources :products, only: [:show], param: :id
   get "admin" => "admin#index"
+  get "cart" => "carts#show"
   # get "category" => "category#index"
   get 'about' => 'about#index'
 end

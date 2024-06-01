@@ -8,15 +8,15 @@
             <!-- Logo -->
             <div>
                 <%= link_to root_path do %>
-                    <%= image_tag 'getgrocey.png', class: 'block lg:hidden h-12 w-16' %>
+                    <%= image_tag 'getgrocey.png', class: 'block lg:hidden h-12 w-12' %>
                 <% end %>
                 <%= link_to root_path do %>
-                    <%= image_tag 'getgrocey.png', class: 'hidden lg:block h-12 w-16' %>
+                    <%= image_tag 'getgrocey.png', class: 'hidden lg:block h-12 w-12' %>
                 <% end %>
             </div>
             <!-- Shopping cart -->
             <div>
-                <%= link_to root_path, class: "text-white hover:underline py-2 rounded-md text-md font-medium flex items-center" do %>
+                <%= link_to cart_path, class: "text-white hover:underline py-2 rounded-md text-md font-medium flex items-center" do %>
                     <%= image_tag 'getgrocey_shopping_cart.png', class: 'hidden lg:block w-12 h-12 mr-2' %>
                 <% end %>
             </div>

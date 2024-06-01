@@ -1,11 +1,9 @@
 <nav class="w-full top-0 z-10 bg-gray-500 p-2 fixed">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
-            <!-- Shop link -->
             <div class="flex items-center">
                 <%= link_to 'Shop', root_path, class: "text-white hover:underline py-2 rounded-md text-md font-medium" %>
             </div>
-            <!-- Logo -->
             <div>
                 <%= link_to root_path do %>
                     <%= image_tag 'getgrocey.png', class: 'block lg:hidden h-12 w-12' %>
@@ -14,7 +12,6 @@
                     <%= image_tag 'getgrocey.png', class: 'hidden lg:block h-12 w-12' %>
                 <% end %>
             </div>
-            <!-- Shopping cart -->
             <div>
                 <%= link_to cart_path, class: "text-white hover:underline py-2 rounded-md text-md font-medium flex items-center" do %>
                     <%= image_tag 'getgrocey_shopping_cart.png', class: 'hidden lg:block w-12 h-12 mr-2' %>

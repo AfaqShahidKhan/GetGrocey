@@ -4,7 +4,7 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
   static values = {size: String, product: Object}
   addToCart() {
-    console.log("product: ", this.productValue)
+    // console.log("product: ", this.productValue)
     const cart = localStorage.getItem("cart")
     if (cart) {
       const cartArray = JSON.parse(cart)

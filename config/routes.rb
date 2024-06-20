@@ -29,6 +29,7 @@ Rails.application.routes.draw do
   resources :products, only: [:show], param: :id
   get "admin" => "admin#index"
   get "cart" => "carts#show"
+  post "checkout" => "checkouts#create"
   # get "category" => "category#index"
   get 'about' => 'about#index'
 end

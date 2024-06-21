@@ -5,20 +5,21 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: "3.0.0"
 
-* System dependencies
+* Rails version: "~> 7.1.3", ">= 7.1.3.2"
+  
+* Install dependencies: bundle install
 
-* Configuration
+* Configuration: To configure Stripe API keys: EDITOR=nvim bin/rails credentials:edit
 
-* Database creation
 
-* Database initialization
+* Database creation: bin/rails db:migrate
 
-* How to run the test suite
+* Database initialization: bin/rails db:seed
 
-* Services (job queues, cache servers, search engines, etc.)
+* How to run the test suite: bin/rails test
 
-* Deployment instructions
 
-* ...
+
+* How to run Project: ./bin/dev
